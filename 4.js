@@ -5,7 +5,7 @@ var connection = mysql.createConnection({
     host: 'database-1.cjxrtdytoesk.us-east-2.rds.amazonaws.com',
     user: 'admin',
     password: '11111111',
-    database: 'mydb'
+    database: 'database-1'
 });
 connection.connect(function (err) {
     if (err) {
